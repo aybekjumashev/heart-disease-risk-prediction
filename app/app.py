@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load the trained model and scaler
-model = joblib.load('rf_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('app/rf_model.pkl')
+scaler = joblib.load('app/scaler.pkl')
 
 st.set_page_config(page_title="Heart Disease Predictor", layout="wide")
 st.title("🫀 Heart Disease Risk Prediction App")
